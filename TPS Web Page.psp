@@ -1,0 +1,15 @@
+;Codewright Project Space File (do not remove or modify this line)
+[State]
+StateWindowFrame=667,0,899,1166,0x0b8d7fca
+_StateHistory=PROJECTS,'.\TPS Web Page.pjt'
+_RestoreProject='.\TPS Web Page.pjt'
+ProjSpaceFlags=0x00000000, 1
+
+[Project]
+ConfigSetUserWorkspace=''
+ConfigSetUserWorkspaceParser=''
+ConfigSetUserWorkspaceTimeStamp=0
+ConfigSetUserWorkspaceAutoSync=0
+
+[Project.".\TPS Web Page.pjt"]
+

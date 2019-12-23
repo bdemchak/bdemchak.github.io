@@ -1,0 +1,107 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x00010140
+
+[State]
+SysSetCwd='X:\www'
+SrchSetFlags=0x0418680b
+SrchSetAgainFlags=0x00006003,0
+SrchSetAgainFlags=0x0200600b,1
+FileSortMode=0x0
+_StateView='X:\www\useful.htm',88,96,1147,589,0,825,40,19,19,1,9,'',0x00100068,72,10,0,0,''
+_StateView='X:\www\our_offices.htm',132,144,1147,589,1120,851,63,19,58,1,8,'',0x00100068,72,10,0,0,''
+_StateView='X:\www\our_museum.htm',154,168,1147,589,960,851,294,19,283,1,7,'',0x00100068,72,10,0,0,''
+_StateView='X:\www\our_expertise_and_goals.htm',176,192,1147,589,800,851,60,19,25,1,6,'',0x00100068,72,10,0,0,''
+_StateView='X:\www\our_expert_witness_work.htm',198,216,1147,589,640,851,90,27,55,1,5,'',0x00100068,72,10,0,0,''
+_StateView='X:\www\our_clients.htm',220,240,1147,589,480,851,126,62,92,1,4,'',0x00100068,72,10,0,0,''
+_StateView='X:\www\localmap.htm',242,264,1147,589,160,851,46,19,22,1,2,'',0x00100068,72,10,0,0,''
+_StateView='X:\www\index.html',138,77,1147,589,0,851,44,41,25,1,1,'',0x00100068,72,10,0,0,''
+_StateView='X:\www\view.htm',44,48,1147,589,320,851,53,19,25,1,3,'',0x00100069,72,10,0,0,''
+_StateBuffer='X:\www\useful.htm',0x04000c0a,40,19,25,'3 5','',0x1,'',1,72,0
+_StateBuffer='X:\www\our_offices.htm',0x04000c0a,63,19,25,'3 5','',0x1,'',1,72,0
+_StateBuffer='X:\www\our_museum.htm',0x04000c0a,294,19,25,'3 5','',0x1,'',1,72,0
+_StateBuffer='X:\www\our_expertise_and_goals.htm',0x04000c0a,60,19,25,'3 5','',0x1,'',1,72,0
+_StateBuffer='X:\www\our_expert_witness_work.htm',0x04000c0a,90,27,25,'3 5','',0x1,'',1,72,0
+_StateBuffer='X:\www\our_clients.htm',0x04000c0a,126,62,25,'3 5','',0x1,'',1,72,0
+_StateBuffer='X:\www\localmap.htm',0x04000c0a,46,19,25,'3 5','',0x1,'',1,72,0
+_StateBuffer='X:\www\index.html',0x04000c0a,44,41,25,'3 5','',0x1,'',1,72,1
+_StateBuffer='X:\www\view.htm',0x84000c0a,53,19,25,'3 5','',0x1,'',1,72,0
+_StateHistory=FILELIST,'X:\www\our_museum.htm','X:\www\our_expertise_and_goals.htm','X:\www\our_expert_witness_work.htm','X:\www\our_clients.htm','X:\www\localmap.htm','X:\www\index.html','X:\www\404.html','X:\www\_vti_inf.html','X:\www\view.htm'
+_StateHistory=EDITFILE,'X:\www\404.html','X:\www\index.html','X:\www\localmap.htm','X:\www\our_clients.htm','X:\www\our_expert_witness_work.htm','X:\www\our_expertise_and_goals.htm','X:\www\our_museum.htm','X:\www\our_offices.htm','X:\www\postinfo.html','X:\www\useful.htm'
+
+
+
+[Editor]
+_RestoreSysFlags=0x0b8d7fca, 0xfffffffc, 0
+_RestoreSysFlags=0x00000018, 0xffffffff, 1
+CollapseMode=0x13080610
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Compiler]
+TagSetCmd='${HOME}${WTAGS} -oc -d -t${TAGFILE}.tag -p${TAGFILE}.ptg',0x8000060
+BrowseSetFile='G:\Berkeley Control Systems\VCDS\Debug\CustStepDemo.bsc'
+TagSetFile='E:\SYSPROG\CWRIGHT.32\tagfile.tag'
+CompilerAddCmdEx='Microsoft Assembler','${FTEE} masm -w2 %b%e;',80,'${FTEE} masm -w2 -zi %b%e;',80,'',144,'',0,'',144,'',0,'',0,'',0,'_MicrosoftErrorInfo','','','',''
+CompilerAddResponse='Microsoft Assembler',
+CompilerAddCmdEx='$_cw_proj_hash_$','',1073741824,'',0,'${FTEE} command /Cg:\dsesho~1\compsd.bat',144,'${FTEE} nmake',0,'${FTEE} nmake -f %y.mak',144,'${FTEE} nmake',0,'',0,'',0,'_ErrorInfoDefault','','','proj.err','%x'
+CompilerAddResponse='$_cw_proj_hash_$',
+CompilerAddCmdEx='Microsoft C','${FTEE} nmake -f %y.mak %r.obj',80,'${FTEE} nmake -f %y.mak %r.obj',80,'',144,'',0,'',144,'',0,'',0,'',0,'_MicrosoftErrorInfo','','','',''
+CompilerAddResponse='Microsoft C',
+CompilerAddCmdEx='Cobol','',16,'',16,'',16,'',0,'',16,'',0,'',0,'',0,'','','','',''
+CompilerAddResponse='Cobol',
+CompilerNewExt=.frm
+CompilerNewExt=.cls
+CompilerNewExt=.htm
+CompilerNewExt=.bas
+CompilerNewExt=.f
+CompilerAssign='Microsoft C','.c'
+CompilerNewExt=.pas
+CompilerAssign='Microsoft C','.h'
+CompilerNewExt=.ctl
+CompilerNewExt=.js
+CompilerAssign='Cobol','.cob'
+CompilerNewExt=.dsr
+CompilerNewExt=.ini
+CompilerNewExt=.pag
+CompilerNewExt=.html
+CompilerAssign='Microsoft C','.cpp'
+CompilerNewExt=.dob
+CompilerAssign='Microsoft C','.cxx'
+CompilerNewExt=.txt
+CompilerAssign='Microsoft Assembler','.asm'
+CompilerAssign='Microsoft C','.hpp'
+CompilerNewExt=.for
+CompilerNewExt=.wsf
+CompilerNewExt=.java
+
+[Project]
+ConfigSetLinkDBFilename='E:\Sysprog\CW32\cwright.ldb'
+ConfigSetMarkDBFilename='E:\Sysprog\CW32\cwright.mrk'
+ConfigSetSymbolDBFilename='X:\www\TPS Web Page.sbl'
+EditSetPath=''
+
+[Files]
+.\useful.htm
+.\our_expertise_and_goals.htm
+.\postinfo.html
+.\our_offices.htm
+.\_vti_inf.html
+.\our_expert_witness_work.htm
+.\localmap.htm
+.\our_clients.htm
+.\our_museum.htm
+.\index.html
+.\404.html
+.\view.htm
+
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe',0,'',0,'',0,'',0,'',0,'','','','',''
+ToolAddCmd='$_custom_tool_$_2','Paint',1342177312,'pbrush.exe',0,'',0,'',0,'',0,'',0,'','','','',''
